@@ -195,7 +195,7 @@ pub struct Socks5Server {
     pub password: String,
 }
 
-// more variable configs
+// more variable configss
 #[derive(Debug, Default, Serialize, Deserialize, Clone, PartialEq)]
 pub struct Config2 {
     #[serde(default, deserialize_with = "deserialize_string")]
